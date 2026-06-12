@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { getItems, addItem } from "../api";
-import Navbar from "./Navbar";
+//import Navbar from "./Navbar";
 
 const Additem: React.FC = () => {
   const [items, setItems] = useState<string[]>([]);
@@ -84,6 +84,7 @@ const Additem: React.FC = () => {
           max-width: 640px;
           margin: 0 auto;
         }
+        
 
         /* Header */
         .im-header {

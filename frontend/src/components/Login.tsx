@@ -109,7 +109,7 @@ const Login: React.FC = () => {
               <label className="text-sm font-medium text-zinc-300">
                 Password
               </label>
-              <a></a>
+              
               <Link
                 to="/fogpass"
                 className="text-xs text-indigo-400 no-underline transition hover:text-indigo-300"

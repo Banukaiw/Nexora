@@ -23,6 +23,8 @@ const VerifyOtp: React.FC = () => {
         }
       );
 
+      console.log(res.data);
+
       setMessage("");
 
       navigate(`/reset-password?email=${email}`);
