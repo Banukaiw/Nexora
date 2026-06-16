@@ -48,7 +48,6 @@ const ResetPassword: React.FC = () => {
   return (
   <div className="flex items-center justify-center min-h-screen px-4 bg-zinc-950">
     <div className="w-full max-w-sm">
-
       {/* Header */}
       <div className="text-center">
         <div className="inline-flex items-center justify-center w-12 h-12 mb-4 bg-indigo-500 rounded-2xl">

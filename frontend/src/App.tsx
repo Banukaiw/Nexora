@@ -19,12 +19,12 @@ const App: React.FC = () => {
 
         {/* Auth Layout */}
         <Route element={<AuthLayout />}>
-        <Route path="/" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/log" element={<Login />} />
           <Route path="/reg" element={<Register />} />
-          <Route path="/fogpass" element={<ForgotPassword/>}/>
-          <Route path="/reset-password" element={<ResetPassword/>}/>
-          <Route path="/verify-otp" element={<VerifyOtp/>}/>
+          <Route path="/fogpass" element={<ForgotPassword />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="/verify-otp" element={<VerifyOtp />} />
         </Route>
 
         {/* Main Layout */}
