@@ -5,7 +5,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const ResetPassword: React.FC = () => {
   /* const { token } = useParams(); */
-
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
   const [isSuccess, setIsSuccess] = useState(false);

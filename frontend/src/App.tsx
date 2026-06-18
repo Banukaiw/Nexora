@@ -32,7 +32,6 @@ const App: React.FC = () => {
           <Route path="/home" element={<Additem />} />
           <Route path="/about" element={<About />} />
         </Route>
-
       </Routes>
     </Router>
   );
